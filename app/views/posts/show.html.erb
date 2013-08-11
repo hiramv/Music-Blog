@@ -1,0 +1,36 @@
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$.embedly.defaults.key = '0098312d92ca46b9a69779ebef3f080d';
+	$('.media a').embedly({query: {maxwidth: 600}, 'method':'after'});
+});
+
+</script>
+
+
+<div class="row">
+
+    <div class="small-12 medium-8 large-6 columns medium-push-4 large-push-3">
+    	<br />
+    	
+    	<h2> <%= @post.title %></h2>
+    	<hr />
+    	
+      	<div class="row">
+        	<div class="small-9 large-10 columns ">
+          		<div class="media">
+				<a href="<%= @post.media %>"></a>
+				</div>
+        <h4 class="subheader"><%= @post.content%></h4>  	    
+    </div>
+</div>
+<hr />
+<ul class="inline-list">
+  <li><h6 class="subheader"><%= link_to 'Go Back', admin_path %></h6></li>
+  <li><h6 class="subheader"><%= link_to 'Edit', edit_post_path %></h6></li>
+  <li><h6 class="subheader"><%= link_to 'Delete', @post, :method => :delete %></h6></li>
+</ul>     
+    
+	</div>
+</div>
+

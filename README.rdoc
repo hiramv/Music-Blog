@@ -1,0 +1,21 @@
+== Music Blog App
+
+I decided to build a simple app that will allow me to easily share music with everyone instead of having to send links through e-mail, chat, Facebook, etc. 
+
+Some Features:
+
+* Core config data is in config.yml file
+
+* Use of [will_paginate](https://github.com/mislav/will_paginate) gem for post pagination
+
+* [Omniauth](https://github.com/intridea/omniauth) used for admin authentication with Twitter login
+
+* [Foundation](http://foundation.zurb.com/) framework used for front-end
+
+* [Cancan](https://github.com/ryanb/cancan) used for admin authorization
+
+* [Embedly](http://www.embed.ly) API for easily embedding media players 
+
+* Use of [simple_form](https://github.com/plataformatec/simple_form) gem to easily create new post forms
+
+More feature will be added soon!

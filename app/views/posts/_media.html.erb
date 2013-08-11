@@ -1,0 +1,24 @@
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$.embedly.defaults.key = '0098312d92ca46b9a69779ebef3f080d';
+	$('.media a').embedly({query: {maxwidth: 600}, 'method':'after'});
+});
+
+</script>
+
+
+<% @posts.each do |post| %>
+<div class="row">
+  <div class="large-12 large-offset-1 columns">
+    <div class="media center inline">
+
+      <a href="<%= post.media %>"></a>
+    </div>
+  </div>
+</div>
+
+<br />
+<% end %>
+
+

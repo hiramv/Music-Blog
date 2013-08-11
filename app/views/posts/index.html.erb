@@ -1,0 +1,102 @@
+
+
+<!-- Nav Bar -->
+  <br />
+  <div class="row">
+    <div class="large-12 columns">
+      <h1 class="header"><strong>Hiram's Picks </strong> <small>This is my music. It's awesome.</small></h1>
+      <hr />
+    </div>
+  </div>
+
+  <!-- End Nav -->
+
+
+  <!-- Main Page Content and Sidebar -->
+
+  <div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+      
+  
+  
+      <% @posts.each do |post| %>
+        <article>
+          <h3 class="subheader"><%= post.title%> | <small>Posted on <%= post.created_at.strftime('%b %d') %></small></h3>
+          <br />
+          <br />
+          <div id="render">
+            <%= render 'media' %>
+          </div>
+
+          <div class="row">
+            <div class="large-12 columns">
+              <h5 class="subheader"><%= post.content %></h5>
+            </div>
+          </div>
+          <br />
+          
+          
+          <div class="pagination-centered">
+            <h4 class="subheader"><%= will_paginate @posts %></h4>
+          </div>
+
+          
+
+          <div id="disqus_thread">
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+              var disqus_shortname = 'audioblog'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
+      </article>
+
+      <hr />
+  <% end %>
+
+     
+
+    </div>
+
+    <!-- End Main Content -->
+
+
+    <!-- Sidebar -->
+
+    <aside class="large-3 columns">
+      <h5>Links</h5>
+      <ul class="side-nav">
+        <li><%= link_to "About.me", "http://about.me/#{ENV['social']}", :target => "_blank" %></li>
+        <li><%= link_to "Spotify", "http://open.spotify.com/user/#{ENV['social']}", :target => "_blank" %></li>
+        <li><%= link_to "Soundcloud", "http://soundcloud.com/#{ENV['social']}", :target => "_blank" %></li>
+        <li><%= link_to "Twitter", "http://twitter.com/#{ENV['social']}", :target => "_blank" %></li>
+        <li><%= link_to "Facebook", "http://facebook.com/#{ENV['social']}", :target => "_blank" %></li>
+      </ul>
+      <br />
+      <div class="panel">
+        <h5>About</h5>
+        <p align="justify">First effort at creating a web app from scratch. This is a simple blog that I'll use to share music with everyone.</p>
+      </div>
+
+    </aside>
+
+    <!-- End Sidebar -->
+  </div>
+
+  <!-- End Main Content and Sidebar -->
+
+  
+
+	
+
