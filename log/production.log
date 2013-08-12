@@ -30,3 +30,130 @@ ActiveRecord::StatementInvalid (Could not find table 'users'):
   app/controllers/application_controller.rb:10:in `current_user'
 
 
+I, [2013-08-12T12:53:24.401623 #2512]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:53:24 -0400
+I, [2013-08-12T12:53:24.495559 #2512]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T12:53:24.537133 #2512]  INFO -- : Completed 500 Internal Server Error in 41ms
+F, [2013-08-12T12:53:24.539691 #2512] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T12:56:29.547803 #2533]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:56:29 -0400
+I, [2013-08-12T12:56:29.696989 #2533]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T12:56:29.740722 #2533]  INFO -- : Completed 500 Internal Server Error in 43ms
+F, [2013-08-12T12:56:29.744371 #2533] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T12:56:38.065834 #2533]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:56:38 -0400
+I, [2013-08-12T12:56:38.079750 #2533]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T12:56:38.099838 #2533]  INFO -- : Completed 500 Internal Server Error in 20ms
+F, [2013-08-12T12:56:38.103222 #2533] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T14:49:20.306647 #3526]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 14:49:20 -0400
+I, [2013-08-12T14:49:20.408152 #3526]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T14:49:20.508185 #3526]  INFO -- : Completed 500 Internal Server Error in 89ms
+F, [2013-08-12T14:49:20.520710 #3526] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T14:50:12.931386 #3540]  INFO -- : Migrating to CreatePosts (20130514221335)
+I, [2013-08-12T14:50:12.959906 #3540]  INFO -- : Migrating to CreateUsers (20130812165019)
+I, [2013-08-12T14:50:12.978271 #3540]  INFO -- : Migrating to RolifyCreateRoles (20130812183703)
+I, [2013-08-12T14:50:24.199834 #3541]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 14:50:24 -0400
+I, [2013-08-12T14:50:24.266600 #3541]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T14:50:24.529424 #3541]  INFO -- : Completed 500 Internal Server Error in 262ms
+F, [2013-08-12T14:50:24.533294 #3541] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'roles_users'):
+  app/models/ability.rb:7:in `initialize'
+
+
+I, [2013-08-12T14:51:20.121517 #3541]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 14:51:20 -0400
+I, [2013-08-12T14:51:20.125274 #3541]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T14:51:20.150530 #3541]  INFO -- :   Rendered posts/index.html.erb within layouts/application (4.2ms)
+I, [2013-08-12T14:51:23.599038 #3541]  INFO -- : Completed 500 Internal Server Error in 3472ms
+F, [2013-08-12T14:51:23.604166 #3541] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : ENV['site_title'] %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__2809127465470068998_70350533941380'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T14:53:27.362020 #3573]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 14:53:27 -0400
+I, [2013-08-12T14:53:27.373384 #3573]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T14:53:27.451914 #3573]  INFO -- :   Rendered posts/index.html.erb within layouts/application (3.9ms)
+I, [2013-08-12T14:53:29.337928 #3573]  INFO -- : Completed 500 Internal Server Error in 1964ms
+F, [2013-08-12T14:53:29.347270 #3573] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : ENV['site_title'] %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__115905304747084942_70268539059300'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T14:55:10.515428 #3573]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 14:55:10 -0400
+I, [2013-08-12T14:55:10.520853 #3573]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T14:55:10.562435 #3573]  INFO -- :   Rendered posts/index.html.erb within layouts/application (1.7ms)
+I, [2013-08-12T14:55:14.483336 #3573]  INFO -- : Completed 500 Internal Server Error in 3962ms
+F, [2013-08-12T14:55:14.491683 #3573] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : ENV['site_title'] %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__115905304747084942_70268539059300'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T14:57:36.538843 #3610]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 14:57:36 -0400
+I, [2013-08-12T14:57:36.589454 #3610]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T14:57:36.758622 #3610]  INFO -- :   Rendered posts/index.html.erb within layouts/application (4.9ms)
+I, [2013-08-12T14:57:39.001259 #3610]  INFO -- : Completed 500 Internal Server Error in 2411ms
+F, [2013-08-12T14:57:39.006821 #3610] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : ENV['site_title'] %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__413180217198364723_70316079755440'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
