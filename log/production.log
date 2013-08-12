@@ -1,0 +1,32 @@
+I, [2013-08-12T11:29:18.916800 #1939]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 11:29:18 -0400
+I, [2013-08-12T11:29:19.118877 #1939]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T11:29:19.265361 #1939]  INFO -- : Completed 500 Internal Server Error in 146ms
+F, [2013-08-12T11:29:19.270422 #1939] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T11:29:26.165302 #1939]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 11:29:26 -0400
+I, [2013-08-12T11:29:26.173781 #1939]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T11:29:26.186650 #1939]  INFO -- : Completed 500 Internal Server Error in 11ms
+F, [2013-08-12T11:29:26.189712 #1939] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T11:50:40.623772 #2239]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 11:50:40 -0400
+I, [2013-08-12T11:50:40.637299 #2239]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T11:50:40.674873 #2239]  INFO -- : Completed 500 Internal Server Error in 37ms
+F, [2013-08-12T11:50:40.677519 #2239] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+
+I, [2013-08-12T12:51:04.021091 #2448]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 12:51:04 -0400
+I, [2013-08-12T12:51:04.178283 #2448]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T12:51:04.251611 #2448]  INFO -- : Completed 500 Internal Server Error in 73ms
+F, [2013-08-12T12:51:04.254314 #2448] FATAL -- : 
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/application_controller.rb:10:in `current_user'
+
+

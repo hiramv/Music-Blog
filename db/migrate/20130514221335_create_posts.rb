@@ -8,7 +8,7 @@ class CreatePosts < ActiveRecord::Migration
       t.timestamps
     end
   end
-
+  
   def down
   	drop_table :posts
   end
