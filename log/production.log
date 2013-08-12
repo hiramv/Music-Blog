@@ -157,3 +157,367 @@ undefined
   app/controllers/posts_controller.rb:13:in `index'
 
 
+I, [2013-08-12T18:32:22.920491 #3610]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:32:22 -0400
+I, [2013-08-12T18:32:23.607972 #3610]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:32:24.971077 #3610]  INFO -- :   Rendered posts/index.html.erb within layouts/application (97.7ms)
+I, [2013-08-12T18:32:30.217416 #3610]  INFO -- : Completed 500 Internal Server Error in 6609ms
+F, [2013-08-12T18:32:30.224420 #3610] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : ENV['site_title'] %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb__413180217198364723_70316079755440'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:32:58.660909 #4669]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:32:58 -0400
+I, [2013-08-12T18:32:58.755385 #4669]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:32:58.958059 #4669]  INFO -- :   Rendered posts/index.html.erb within layouts/application (4.4ms)
+I, [2013-08-12T18:33:00.928357 #4669]  INFO -- : Completed 500 Internal Server Error in 2172ms
+F, [2013-08-12T18:33:00.936777 #4669] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : ENV['site_title'] %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2774319025523947072_70160789298360'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:35:52.600017 #4669]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:35:52 -0400
+I, [2013-08-12T18:35:52.604975 #4669]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:35:52.624463 #4669]  INFO -- :   Rendered posts/index.html.erb within layouts/application (1.9ms)
+I, [2013-08-12T18:35:54.384983 #4669]  INFO -- : Completed 500 Internal Server Error in 1779ms
+F, [2013-08-12T18:35:54.391377 #4669] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2774319025523947072_70160789298360'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:37:53.294821 #4669]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:37:53 -0400
+I, [2013-08-12T18:37:53.298243 #4669]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:37:53.341346 #4669]  INFO -- :   Rendered posts/index.html.erb within layouts/application (2.3ms)
+I, [2013-08-12T18:37:56.354543 #4669]  INFO -- : Completed 500 Internal Server Error in 3056ms
+F, [2013-08-12T18:37:56.361358 #4669] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2774319025523947072_70160789298360'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:40:01.752732 #4669]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:40:01 -0400
+I, [2013-08-12T18:40:01.756224 #4669]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:40:01.836570 #4669]  INFO -- :   Rendered posts/index.html.erb within layouts/application (1.9ms)
+I, [2013-08-12T18:40:04.025981 #4669]  INFO -- : Completed 500 Internal Server Error in 2269ms
+F, [2013-08-12T18:40:04.032391 #4669] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag :application %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2774319025523947072_70160789298360'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:40:27.065912 #4669]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:40:27 -0400
+I, [2013-08-12T18:40:27.069432 #4669]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:40:27.089285 #4669]  INFO -- :   Rendered posts/index.html.erb within layouts/application (1.8ms)
+I, [2013-08-12T18:40:28.796165 #4669]  INFO -- : Completed 500 Internal Server Error in 1726ms
+F, [2013-08-12T18:40:28.801682 #4669] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag "application" %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___2774319025523947072_70160789298360'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:47:06.781674 #4800]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:47:06 -0400
+I, [2013-08-12T18:47:06.837829 #4800]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:47:07.048794 #4800]  INFO -- :   Rendered posts/index.html.erb within layouts/application (49.1ms)
+I, [2013-08-12T18:47:09.209996 #4800]  INFO -- : Completed 500 Internal Server Error in 2371ms
+F, [2013-08-12T18:47:09.218791 #4800] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag "application" %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___594874949328606852_70266395490460'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:50:25.332553 #4800]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:50:25 -0400
+I, [2013-08-12T18:50:25.338815 #4800]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:50:25.359828 #4800]  INFO -- :   Rendered posts/index.html.erb within layouts/application (1.6ms)
+I, [2013-08-12T18:50:27.106500 #4800]  INFO -- : Completed 500 Internal Server Error in 1767ms
+F, [2013-08-12T18:50:27.113535 #4800] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag "application" %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___594874949328606852_70266395490460'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:50:39.656244 #4831]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:50:39 -0400
+I, [2013-08-12T18:50:39.667974 #4831]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:50:39.786705 #4831]  INFO -- :   Rendered posts/index.html.erb within layouts/application (47.5ms)
+I, [2013-08-12T18:50:41.595367 #4831]  INFO -- : Completed 500 Internal Server Error in 1927ms
+F, [2013-08-12T18:50:41.603051 #4831] FATAL -- : 
+ActionView::Template::Error (Unexpected character '#' (line: 30713, col: 26, pos: 1011875)
+
+undefined
+  (in /Users/hiramvazquez/code/aud.io/app/assets/javascripts/application.js)):
+    14:   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    15: 
+    16:   	 <title><%= content_for?(:title) ? yield(:title) : "Hiram's Picks" %></title>
+    17:   	<%= javascript_include_tag "application" %>
+    18:     
+    19:   	<script type="text/javascript" src="http://cdn.embed.ly/jquery.embedly-3.1.0.min.js"></script>
+    20: 
+  app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___1502716164513827785_70116193343540'
+  app/controllers/posts_controller.rb:14:in `block (2 levels) in index'
+  app/controllers/posts_controller.rb:13:in `index'
+
+
+I, [2013-08-12T18:57:23.412550 #4862]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:57:23 -0400
+I, [2013-08-12T18:57:23.440378 #4862]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:57:23.625522 #4862]  INFO -- :   Rendered posts/index.html.erb within layouts/application (48.0ms)
+I, [2013-08-12T18:57:25.382989 #4862]  INFO -- : Completed 200 OK in 1942ms (Views: 1807.2ms | ActiveRecord: 5.1ms)
+I, [2013-08-12T18:57:25.543879 #4862]  INFO -- : Started GET "/assets/css/foundation-b9caea5d76544ae355c134a1d15a0e7b.css" for 127.0.0.1 at 2013-08-12 18:57:25 -0400
+I, [2013-08-12T18:57:25.557404 #4862]  INFO -- : Started GET "/js/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-08-12 18:57:25 -0400
+F, [2013-08-12T18:57:25.560478 #4862] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/js/vendor/custom.modernizr.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T18:57:25.642437 #4862]  INFO -- : Started GET "/assets/application-2354f1545916247173723030a86955c6.js" for 127.0.0.1 at 2013-08-12 18:57:25 -0400
+I, [2013-08-12T18:57:30.081051 #4862]  INFO -- : Started GET "/auth/twitter" for 127.0.0.1 at 2013-08-12 18:57:30 -0400
+I, [2013-08-12T18:57:30.081547 #4862]  INFO -- : (twitter) Request phase initiated.
+I, [2013-08-12T18:57:32.439064 #4862]  INFO -- : Started GET "/auth/twitter/callback?oauth_token=bLGlNzQU84HR27hPLNWPOWY1otWGNH3QdUSo0c&oauth_verifier=fbO27cKVdpaB0uT3xYTFAD1oabIgWrwTovRGVLvc" for 127.0.0.1 at 2013-08-12 18:57:32 -0400
+I, [2013-08-12T18:57:32.439557 #4862]  INFO -- : (twitter) Callback phase initiated.
+I, [2013-08-12T18:57:33.504120 #4862]  INFO -- : Processing by SessionsController#create as HTML
+I, [2013-08-12T18:57:33.504277 #4862]  INFO -- :   Parameters: {"oauth_token"=>"bLGlNzQU84HR27hPLNWPOWY1otWGNH3QdUSo0c", "oauth_verifier"=>"fbO27cKVdpaB0uT3xYTFAD1oabIgWrwTovRGVLvc", "provider"=>"twitter"}
+I, [2013-08-12T18:57:33.573869 #4862]  INFO -- : Redirected to http://0.0.0.0:3000/
+I, [2013-08-12T18:57:33.574139 #4862]  INFO -- : Completed 302 Found in 70ms (ActiveRecord: 43.4ms)
+I, [2013-08-12T18:57:33.580603 #4862]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 18:57:33 -0400
+I, [2013-08-12T18:57:33.583400 #4862]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T18:57:33.632065 #4862]  INFO -- :   Rendered posts/index.html.erb within layouts/application (1.4ms)
+I, [2013-08-12T18:57:33.633993 #4862]  INFO -- : Completed 200 OK in 50ms (Views: 3.4ms | ActiveRecord: 1.2ms)
+I, [2013-08-12T18:57:33.711554 #4862]  INFO -- : Started GET "/js/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-08-12 18:57:33 -0400
+F, [2013-08-12T18:57:33.716810 #4862] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/js/vendor/custom.modernizr.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T18:57:40.148186 #4862]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2013-08-12 18:57:40 -0400
+I, [2013-08-12T18:57:40.259555 #4862]  INFO -- : Processing by PostsController#admin as HTML
+I, [2013-08-12T18:57:40.429188 #4862]  INFO -- : Completed 500 Internal Server Error in 169ms
+F, [2013-08-12T18:57:40.433429 #4862] FATAL -- : 
+CanCan::AccessDenied (You are not authorized to access this page.):
+  cancan (1.6.10) lib/cancan/ability.rb:208:in `authorize!'
+  cancan (1.6.10) lib/cancan/controller_additions.rb:338:in `authorize!'
+  cancan (1.6.10) lib/cancan/controller_resource.rb:41:in `authorize_resource'
+  cancan (1.6.10) lib/cancan/controller_resource.rb:26:in `load_and_authorize_resource'
+  cancan (1.6.10) lib/cancan/controller_resource.rb:10:in `block in add_before_filter'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:417:in `_run__888955897974438954__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2215064193985567305__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T19:00:10.570802 #4884]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-12 19:00:10 -0400
+I, [2013-08-12T19:00:10.675474 #4884]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-12T19:00:10.822261 #4884]  INFO -- :   Rendered posts/index.html.erb within layouts/application (4.1ms)
+I, [2013-08-12T19:00:11.006767 #4884]  INFO -- : Completed 200 OK in 331ms (Views: 190.1ms | ActiveRecord: 5.8ms)
+I, [2013-08-12T19:00:11.291866 #4884]  INFO -- : Started GET "/js/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-08-12 19:00:11 -0400
+F, [2013-08-12T19:00:11.303833 #4884] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/js/vendor/custom.modernizr.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-12T19:00:13.897303 #4884]  INFO -- : Started GET "/admin" for 127.0.0.1 at 2013-08-12 19:00:13 -0400
+I, [2013-08-12T19:00:13.905485 #4884]  INFO -- : Processing by PostsController#admin as HTML
+I, [2013-08-12T19:00:13.935566 #4884]  INFO -- :   Rendered posts/admin.html.erb within layouts/admin (2.5ms)
+I, [2013-08-12T19:00:14.010696 #4884]  INFO -- : Completed 200 OK in 105ms (Views: 90.3ms | ActiveRecord: 0.6ms)
+I, [2013-08-12T19:00:14.114670 #4884]  INFO -- : Started GET "/assets/css/normalize-f03e13ed4ea96d3cce43f9d9f80bd09d.css" for 127.0.0.1 at 2013-08-12 19:00:14 -0400
