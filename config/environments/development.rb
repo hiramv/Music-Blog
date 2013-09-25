@@ -26,4 +26,6 @@ AudIo::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  ENV.update YAML.load(File.read(File.expand_path('../../application.yml', __FILE__)))
 end

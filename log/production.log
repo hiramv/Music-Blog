@@ -550,3 +550,62 @@ ActionController::RoutingError (No route matches [GET] "/js/vendor/custom.modern
   /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
 
 
+I, [2013-08-13T11:59:11.643124 #6454]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-13 11:59:11 -0400
+I, [2013-08-13T11:59:11.667532 #6454]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-13T11:59:11.963511 #6454]  INFO -- :   Rendered posts/index.html.erb within layouts/application (8.6ms)
+I, [2013-08-13T11:59:12.478623 #6454]  INFO -- : Completed 200 OK in 810ms (Views: 528.8ms | ActiveRecord: 42.8ms)
+I, [2013-08-13T11:59:12.793145 #6454]  INFO -- : Started GET "/js/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-08-13 11:59:12 -0400
+F, [2013-08-13T11:59:12.798609 #6454] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/js/vendor/custom.modernizr.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2013-08-13T11:59:12.841642 #6454]  INFO -- : Started GET "/assets/application-1b74a99e18b5e5e47e8db19316f2032e.js" for 127.0.0.1 at 2013-08-13 11:59:12 -0400
+I, [2013-08-13T12:05:07.043671 #6520]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-08-13 12:05:07 -0400
+I, [2013-08-13T12:05:07.066901 #6520]  INFO -- : Processing by PostsController#index as HTML
+I, [2013-08-13T12:05:07.212037 #6520]  INFO -- :   Rendered posts/index.html.erb within layouts/application (9.8ms)
+I, [2013-08-13T12:05:07.650399 #6520]  INFO -- : Completed 200 OK in 581ms (Views: 445.4ms | ActiveRecord: 10.2ms)
+I, [2013-08-13T12:05:07.986444 #6520]  INFO -- : Started GET "/js/vendor/custom.modernizr.js" for 127.0.0.1 at 2013-08-13 12:05:07 -0400
+F, [2013-08-13T12:05:07.989746 #6520] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/js/vendor/custom.modernizr.js"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
