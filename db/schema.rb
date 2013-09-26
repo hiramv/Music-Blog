@@ -33,9 +33,11 @@ ActiveRecord::Schema.define(version: 20130812183703) do
   add_index "roles", ["name"], name: "index_roles_on_name"
 
   create_table "roles_users", id: false, force: true do |t|
-    t.integer "user_id"
     t.integer "role_id"
+    t.integer "user_id"
   end
+
+  add_index "roles_users", ["user_id", "role_id"], name: "index_roles_users_on_user_id_and_role_id"
 
   create_table "users", force: true do |t|
     t.string   "name"
