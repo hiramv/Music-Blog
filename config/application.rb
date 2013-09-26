@@ -11,7 +11,7 @@ module AudIo
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    config.assets.precompile = %w( vendor/custom.modernizr.js )
+    # config.assets.precompile = %w( )
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
@@ -31,5 +31,11 @@ module AudIo
         g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
     
+    config.middleware.insert_before ActionDispatch::Static, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', :headers => :any, :methods => [:get, :post, :options]
+      end
+    end
   end
 end
