@@ -18,4 +18,4 @@ Some Features:
 
 * Use of [simple_form](https://github.com/plataformatec/simple_form) gem to easily create new post forms
 
-More feature will be added soon!
+Check out the app at vazqueezy.herokuapp.com
