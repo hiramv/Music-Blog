@@ -6,16 +6,16 @@ Some Features:
 
 * Core config data is in config.yml file
 
-* Use of [will_paginate](https://github.com/mislav/will_paginate) gem for post pagination
+* Use of [will_paginate](http://github.com/mislav/will_paginate) gem for post pagination
 
-* [Omniauth](https://github.com/intridea/omniauth) used for admin authentication with Twitter login
+* [Omniauth](http://github.com/intridea/omniauth) used for admin authentication with Twitter login
 
 * [Foundation](http://foundation.zurb.com/) framework used for front-end
 
-* [Cancan](https://github.com/ryanb/cancan) used for admin authorization
+* [Cancan](http://github.com/ryanb/cancan) used for admin authorization
 
 * [Embedly](http://www.embed.ly) API for easily embedding media players 
 
-* Use of [simple_form](https://github.com/plataformatec/simple_form) gem to easily create new post forms
+* Use of [simple_form](http://github.com/plataformatec/simple_form) gem to easily create new post forms
 
-Check out the app at vazqueezy.herokuapp.com
+Check out the app at [vazqueezy.herokuapp.com](http://vazqueezy.herokuapp.com)
